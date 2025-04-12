@@ -43,6 +43,7 @@ body {
 .nav-list {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -66,23 +67,25 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
+  display: flex;
 }
-.nav-item {
-}
-
 .nav-link:hover,
 .nav-link:focus {
   color: #404bbf;
 }
-
 .contacts {
   font-style: normal;
+  margin-left: auto;
 }
 .conacts-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  padding: 24px 0;
+  gap: 40px;
+  display: block;
 }
 .conacts-link:hover,
 .conacts-link:focus {
@@ -91,8 +94,10 @@ body {
 .contacts-list {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
-
+.hero-container {
+}
 .hero-title {
   font-weight: 700;
   font-size: 56px;
@@ -100,16 +105,20 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+  margin-top: 188px;
 }
-
 .hero {
   background-color: #2e2f42;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
-
 button {
   cursor: pointer;
 }
-
 .button-order {
   background: #4d5ae5;
   font-weight: 500;
@@ -117,12 +126,34 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 188px;
 }
 .button-order:hover {
   background-color: #404bbf;
 }
 .button-order:focus {
   background-color: #404bbf;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  overflow: hidden;
+  white-space: nowrap;
+}
+.about {
+  padding-top: 120px;
+}
+.about-list {
+  display: flex;
+  gap: 24px;
 }
 
 .about-title {
@@ -144,6 +175,8 @@ button {
 
 .about-item {
   background-color: #ffffff;
+  width: calc((100% - (24px * 3)) / 4);
+  width: 264px;
 }
 
 .team-our {
