@@ -28,6 +28,8 @@ body {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 .page-header {
   border-bottom: 1px solid #e7e9fc;
@@ -208,7 +210,7 @@ button {
 }
 .team-list {
   display: flex;
-  gap: 21px;
+  gap: 24px;
 }
 .team {
   padding: 120px 0 120px;
