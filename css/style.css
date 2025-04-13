@@ -291,7 +291,8 @@ button {
 .portfolio-info {
   margin-right: 0;
   border: 1px solid #e7e9fc;
-  padding: 32px 16px; та border-top: none;
+  padding: 32px 16px;
+  border-top: none;
 }
 
 .page-footer {
