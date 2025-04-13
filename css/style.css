@@ -286,14 +286,12 @@ button {
   flex-wrap: wrap;
 }
 .container-portfolio {
-  padding: 32px 16px;
   border-top: none;
 }
 .portfolio-info {
   margin-right: 0;
   border: 1px solid #e7e9fc;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding: 32px 16px; та border-top: none;
 }
 
 .page-footer {
