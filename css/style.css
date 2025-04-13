@@ -28,8 +28,6 @@ body {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
 }
 .page-header {
   border-bottom: 1px solid #e7e9fc;
@@ -286,6 +284,10 @@ button {
   display: flex;
   gap: 48px 24px;
   flex-wrap: wrap;
+}
+.container-portfolio {
+  padding: 32px 16px;
+  border-top: none;
 }
 .portfolio-info {
   margin-right: 0;
